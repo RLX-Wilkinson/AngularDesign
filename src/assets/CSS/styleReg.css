@@ -44,7 +44,8 @@ body {
 	margin-bottom: 34px;
 }
 .form-v4-content .form-left {
-	background: #3786bd;
+	background-color: #fc5296;
+    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	padding: 20px 40px;
