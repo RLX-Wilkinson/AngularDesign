@@ -2,22 +2,57 @@
 
     <style>
     header{
-         background: rgb(252, 136, 152,0.5);
-         
-         box-shadow: 0 0 0px #000;
-         padding: 5px;
-         text-align: center;
-     }
- 
-     header img
-     {
-         width: 250px;
-         float: left;
-         margin-top: -25px;
-         margin-left: -60px;
-     
-     }</style> 
-         <img src="/assets/images/Logo.png" >
+    background: rgb(252, 136, 152,0.5);
+    padding: 15px;
+    box-shadow: 0 0 0px #000;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+
+}
+
+header li a:hover{
+    color:#5C2C26;
+
+}
+
+header ul #login a{
+    color: #fff;
+    background-color: #5C2C26;
+    border-radius: 30px;
+    float: right;
+    position:relative;
+    top:-15px;
+    margin-left: 200px
+
+}
+header li img{
+    width: 250px;
+    float: left;
+    margin-top: -25px;
+    margin-left: -70px;
+
+}</style> 
+ <ul>
+    <li> <img src="/assets/images/Logo.png" ></li>
+    <li><a href = "http://localhost:63342/project3-website/Project%203/HTML/HomeAndGallery/index.html">Home</a></li>
+    <li><a href="#">Menu</a> </li>
+    <li><a href="http://localhost:63342/project3-website/Project%203/HTML/HomeAndGallery/gallery.html">Gallery</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li id = "login"><a href="#">Login</a></li>
+</ul>
+        
      
      </header>
  
