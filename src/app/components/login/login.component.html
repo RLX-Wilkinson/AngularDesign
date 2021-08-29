@@ -28,8 +28,8 @@
 			      			<label class="label" for="name">Username</label>
 			      			<input type="text" class="form-control" formControlName= "uName" placeholder="Username" required>
                               <div *ngIf = "username.invalid && username.touched">
-                                  <span *ngIf= "username.errors?.required">Username Required</span>
-                                  <span *ngIf= "username.errors?.pattern">Please Enter Valid Username</span>
+                                  <span class = "error" *ngIf= "username.errors?.required">Username Required</span>
+                                  <span class = "error" *ngIf= "username.errors?.pattern">Please Enter Valid Username</span>
                               </div>
                         
 			      		</div>
