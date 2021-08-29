@@ -12,8 +12,8 @@ export class LoginComponent implements OnInit {
   loginForm:any;
   ngOnInit(): void {
     this.loginForm = new FormGroup({
-      "username": new FormControl(null,[Validators.pattern('^[A-Za-z0-9ñÑáéíóúÁÉÍÓÚ ]+$'),Validators.required]),
-      "password": new FormControl(null,Validators.required)
+      "uName": new FormControl(null,[Validators.pattern('^[A-Za-z0-9ñÑáéíóúÁÉÍÓÚ ]+$'),Validators.required]),
+      "pWord": new FormControl(null,Validators.required)
     })
   }
   submitData()
@@ -21,5 +21,5 @@ export class LoginComponent implements OnInit {
     console.log(this.loginForm);
   }
 
-  get username(){return this.loginForm.get('username')}
+  get username(){return this.loginForm.get('uName');}
 }
