@@ -20,4 +20,6 @@ export class LoginComponent implements OnInit {
   {
     console.log(this.loginForm);
   }
+
+  get username(){return this.loginForm.get('username')}
 }
