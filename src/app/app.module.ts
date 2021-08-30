@@ -7,6 +7,9 @@ import { LoginComponent } from './components/login/login.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ReactiveFormsModule} from '@angular/forms';
 import { RegisterComponent } from './components/register/register.component';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule} from 'angularfire2/firestore';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
